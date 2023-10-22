@@ -15,13 +15,16 @@
     background-color: rgb(42, 15, 196);
     padding: 20px;
     border-radius: 7%;
+    width: 270px;
+    height: 400px;
     text-align: center;
 }
 .white{
     background-color: rgb(246, 246, 246);
     padding: 20px;
     border-radius: 7%;
-
+    width: 270px;
+    height: 400px;
     
 }
 
