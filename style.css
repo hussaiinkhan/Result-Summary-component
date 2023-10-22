@@ -98,6 +98,6 @@
 /* Desktop view */
 @media screen and (min-width: 768px) {
   .grid-container {
-    grid-template-columns: repeat(2, 1fr); /* Reset to two columns for desktop */
+    grid-template-columns: repeat(2, 0.1fr); /* Reset to two columns for desktop */
   }
 }
