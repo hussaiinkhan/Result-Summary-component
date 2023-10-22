@@ -73,3 +73,31 @@
    margin-left: 52px;
    padding-top: 15px;
 }
+
+/* Mobile view */
+@media screen and (max-width: 767px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* Set to one column for mobile */
+    margin-top: 10%; /* Adjust margin for smaller screens */
+  }
+
+  .grid-child {
+    width: 100%; /* Make grid child take full width */
+    margin-bottom: 20px; /* Add some space between grid items */
+  }
+
+  .blue, .white {
+    width: 100%; /* Make the cards take full width on mobile */
+  }
+
+  .circle {
+    margin-left: 0; /* Adjust the margin for the circle on mobile */
+  }
+}
+
+/* Desktop view */
+@media screen and (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr); /* Reset to two columns for desktop */
+  }
+}
