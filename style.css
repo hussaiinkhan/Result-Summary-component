@@ -91,7 +91,7 @@
   }
 
   .circle {
-    margin-left: 0; /* Adjust the margin for the circle on mobile */
+    margin-left: 30px; /* Adjust the margin for the circle on mobile */
   }
 }
 
