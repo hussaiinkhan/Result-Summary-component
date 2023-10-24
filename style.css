@@ -91,8 +91,15 @@
     }
   
     .circle {
-      margin-left: 52px; /* Adjust the margin for the circle on mobile */
+      margin-left: 55px; /* Adjust the margin for the circle on mobile */
     }
+    .attribution {
+    font-size: 11px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%; /* Make it take the full width */
+}
   }
   
   /* Desktop view */
