@@ -1,5 +1,8 @@
-.container{
+.container {
   margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .blue{
@@ -50,11 +53,11 @@
     padding: 8px;
 }
 .attribution {
-  font-size: 11px;
-  text-align: center;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+    font-size: 11px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .circle{
@@ -65,9 +68,9 @@
     padding-top: 15px;
 }
 .centerc{
-  display:flex;
-  justify-content: center;
-  align-items: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 body{
     display: flex; 
@@ -77,6 +80,7 @@ body{
 /* Mobile view */
 @media screen and (max-width: 767px) {
     .container {
+      position: relative;
       display: flex; 
       flex-direction: column;
       justify-content: center;
@@ -96,13 +100,13 @@ body{
       font-size: 11px;
       text-align: center;
       position: fixed;
-      bottom: 0;
+      bottom: 10px;
       width: 100%;
   }
-  body{
-    display: flex; 
-    justify-content: center;
-    align-items: center;
+    body{
+      display: flex; 
+      justify-content: center;
+      align-items: center;
     
   }
   .centerc{
@@ -110,14 +114,24 @@ body{
     justify-content: center;
     align-items: center;
   }
+  
   }
   
   /* Desktop view */
   @media screen and (min-width: 768px) {
     .container {
+      position: relative;
       display: flex; 
       justify-content: center;
       align-items: center;
       
     }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      position: fixed;
+      bottom: 10px;
+      width: 100%;
+  }
+    
   }
