@@ -81,7 +81,7 @@ body{
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin-top: 15%;  
+      margin-top: 10%;  
     }
   
     .child {
@@ -104,6 +104,11 @@ body{
     justify-content: center;
     align-items: center;
     
+  }
+  .centerc{
+    display:flex;
+    justify-content: center;
+    align-items: center;
   }
   }
   
